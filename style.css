@@ -11,8 +11,34 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 20px;
   min-height: 100vh;
   user-select: none;
+}
+
+/* ---- Título ---- */
+.game-header {
+  text-align: center;
+}
+
+.game-title {
+  font-size: 44px;
+  font-weight: 800;
+  letter-spacing: 12px;
+  padding-left: 12px; /* compensa el letter-spacing para centrar */
+  background: linear-gradient(90deg, #7aa2f7, #bb9af7, #f7768e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.game-subtitle {
+  margin-top: 4px;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #555570;
 }
 
 .wrapper {
