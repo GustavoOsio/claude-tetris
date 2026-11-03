@@ -301,4 +301,8 @@ document.addEventListener('keydown', e => {
 
 restartBtn.addEventListener('click', init);
 
+// Pie de página: el año se actualiza solo (la versión se edita en index.html).
+const yearEl = document.getElementById('app-year');
+if (yearEl) yearEl.textContent = new Date().getFullYear();
+
 init();
