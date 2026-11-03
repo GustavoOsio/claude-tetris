@@ -122,6 +122,38 @@ kbd {
   color: #aaa;
 }
 
+/* ---- Pie de página ---- */
+.site-footer {
+  width: 100%;
+  margin-top: 10px;
+  padding: 16px 20px;
+  border-top: 1px solid #2a2a3a;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #6a6a85;
+}
+
+.footer-name {
+  font-weight: 700;
+  color: #7aa2f7;
+}
+
+.footer-sep {
+  margin: 0 8px;
+  color: #3a3a5a;
+}
+
+@media (max-width: 520px) {
+  .footer-sep {
+    display: none;
+  }
+
+  .site-footer p > span {
+    display: block;
+  }
+}
+
 /* ---- Overlay ---- */
 .overlay {
   position: absolute;
